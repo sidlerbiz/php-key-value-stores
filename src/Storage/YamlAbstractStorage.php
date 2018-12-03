@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__ . '/Storage.php';
+require_once __DIR__ . '/AbstractStorage.php';
 
-class YamlStorage extends Storage
+class YamlAbstractStorage extends AbstractStorage
 {
     public function __construct()
     {

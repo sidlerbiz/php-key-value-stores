@@ -3,9 +3,9 @@
 require_once __DIR__ . '/KeyValueStoreInterface.php';
 
 /**
- * Class Storage
+ * Class AbstractStorage
  */
-abstract class Storage implements KeyValueStoreInterface
+abstract class AbstractStorage implements KeyValueStoreInterface
 
 {
     protected $storage = [];
