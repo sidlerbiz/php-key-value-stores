@@ -2,12 +2,12 @@
 <?php
 
 require_once __DIR__ . '/../src/console_helper.php';
-require_once __DIR__ . '/../src/Storage/PhpAbstractStorage.php';
-require_once __DIR__ . '/../src/Storage/JsonAbstractStorage.php';
-require_once __DIR__ . '/../src/Storage/YamlAbstractStorage.php';
+require_once __DIR__ . '/../src/Storage/PhpStorage.php';
+require_once __DIR__ . '/../src/Storage/JsonStorage.php';
+require_once __DIR__ . '/../src/Storage/YamlStorage.php';
 
 
-$storage = new PhpAbstractStorage();
+$storage = new PhpStorage();
 $storage->set(0, 'first storage element value');
 $storage->set(1, 'second storage element value');
 $storage->set(2, 'third storage element value');
@@ -17,12 +17,12 @@ $storage->set(4, 'five storage element value');
 //var_dump($storage);
 
 
-$jsonStorage = new JsonAbstractStorage();
+$jsonStorage = new JsonStorage();
 
 $jsonStorage->set(0, '11111');
 $jsonStorage->set(1, '222222');
 
-$yamlStorage = new YamlAbstractStorage();
+$yamlStorage = new YamlStorage();
 
 $yamlStorage->set(2, '33333');
 $yamlStorage->set(4, '5555555');

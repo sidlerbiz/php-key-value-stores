@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/AbstractStorage.php';
 
-class PhpAbstractStorage extends AbstractStorage
+class PhpStorage extends AbstractStorage
 {
 
 }

@@ -3,7 +3,7 @@ require_once __DIR__ . '/KeyValueStoreInterface.php';
 require_once __DIR__ . '/AbstractStorage.php';
 
 
-class JsonAbstractStorage extends AbstractStorage
+class JsonStorage extends AbstractStorage
 {
     public function __construct()
     {

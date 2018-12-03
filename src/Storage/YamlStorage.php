@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/AbstractStorage.php';
 
-class YamlAbstractStorage extends AbstractStorage
+class YamlStorage extends AbstractStorage
 {
     public function __construct()
     {

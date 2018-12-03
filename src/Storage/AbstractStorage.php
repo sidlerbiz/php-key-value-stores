@@ -3,7 +3,7 @@
 require_once __DIR__ . '/KeyValueStoreInterface.php';
 
 /**
- * Class AbstractStorage
+ * Class Storage
  */
 abstract class AbstractStorage implements KeyValueStoreInterface
 
